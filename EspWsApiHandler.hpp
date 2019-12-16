@@ -6,7 +6,6 @@ namespace EspWsApi {
 
     class ApiHandler {
         public:
-            ApiHandler();
             Response call(String serverUri);
     };
 }
